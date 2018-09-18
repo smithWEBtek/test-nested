@@ -30,7 +30,7 @@ function find(array, criteriaFn) {
 		// return it — recall that `return` will exit the
 		// entire function!
 		if (criteriaFn(current)) {
-			console.log("current: ", current);
+			console.log("current return: ", current, "..while using criteria: ", criteriaFn.name);
 			return current
 		}
 
@@ -51,6 +51,7 @@ function find(array, criteriaFn) {
 	}
 
 	// if we haven't
-	console.log("none found");
+
+	console.log("none found while running criteria: ", criteriaFn.name);
 	return null
 }
