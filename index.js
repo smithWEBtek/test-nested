@@ -10,6 +10,12 @@ function criteria2(n) {
 	return typeof n === 'number' && n > 5
 }
 
+function criteria3(n) {
+	return typeof n == '123'
+}
+
+
+
 function find(array, criteriaFn) {
 	// initialize two variables, `current`, and `next`
 	// `current` keeps track of the element that we're
