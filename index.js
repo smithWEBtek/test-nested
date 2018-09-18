@@ -2,8 +2,12 @@
 const collections = [1, [2, [4, [5, [6]], 3]]]
 
 
-function asdf(n) {
+function criteria1(n) {
 	return n > 5
+}
+
+function criteria2(n) {
+	typeof n === 'number' && n > 5
 }
 
 function find(array, criteriaFn) {
@@ -47,5 +51,6 @@ function find(array, criteriaFn) {
 	}
 
 	// if we haven't
+	console.log("none found");
 	return null
 }
