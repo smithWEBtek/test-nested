@@ -7,7 +7,7 @@ function criteria1(n) {
 }
 
 function criteria2(n) {
-	typeof n === 'number' && n > 5
+	return typeof n === 'number' && n > 5
 }
 
 function find(array, criteriaFn) {
