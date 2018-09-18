@@ -11,7 +11,7 @@ function criteria2(n) {
 }
 
 function criteria3(n) {
-	return typeof n == '123'
+	return n == '7'
 }
 
 
