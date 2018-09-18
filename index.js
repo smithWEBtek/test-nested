@@ -26,6 +26,7 @@ function find(array, criteriaFn) {
 		// return it — recall that `return` will exit the
 		// entire function!
 		if (criteriaFn(current)) {
+			console.log("current: ", current);
 			return current
 		}
 
